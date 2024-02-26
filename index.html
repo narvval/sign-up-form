@@ -19,11 +19,11 @@
                 <h3>Create an account</h3>
                 <div class="log-in">Already have one? <a href="#">Log in.</a></div>
             </div>
-            <form action="#" method="post">
-                <label>Full name *<input type="text" name="full-name"></label>
-                <label>Email *<input type="email" name="email"></label>
-                <label>Password *<input type="password" name="password"></label>
-                <label>Confirm password *<input type="password" name="confirm-password"></label>
+            <form>
+                <label>Full name *<input placeholder="Jane Doe" type="text" name="full-name" required></label>
+                <label>Email *<input placeholder="example@mail.com" pattern="^[\w]{1,63}@[\w]{1,63}.[\w]{2,3}$" type="email" name="email" required></label><span id="email-message"></span>
+                <label>Password *<input placeholder="" pattern="^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=.*\W)(?!.* ).{8,15}$" type="password" name="password" required></label>
+                <label>Confirm password *<input placeholder="" type="password" name="confirm-password" required></label>
                 <button type="submit" class="sign-up-btn">Sign up</button>
             </form>
         </div>
