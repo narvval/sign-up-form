@@ -9,7 +9,7 @@ html {
 }
 
 body {
-    background: url(/images/background.jpg) no-repeat center center fixed;
+    background: url(images/background.jpg) no-repeat center center fixed;
     background-size: cover;
     
     display: flex;
@@ -26,8 +26,6 @@ body {
     padding: 0px 58px;
     min-width: 1140px;
     height: 100vh;
-
-    /* border: 2px solid red; */
 }
 
 h1 {
@@ -88,8 +86,6 @@ form {
     font-size: 4.5rem;
     text-align: center;
     color: #E4AC11;
-    /* margin-top: 50px;
-    margin-bottom: 60px; */
 }
 
 label {
@@ -147,11 +143,6 @@ input:not(:placeholder-shown):not(:focus):invalid {
     left: 2px;
     margin-bottom: -20px;
 }
-
-/* input:invalid + #email-message::after{
-    content: "hello";
-    display: inline;
-} */
 
 ::placeholder {
     color: rgba(178, 130, 0, .6);
